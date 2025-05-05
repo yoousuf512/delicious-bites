@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER Page</title>
+</head>
+<body bgcolor="#f5a462">
+  <h1><i>Order Form</i></h1>
+  <form name="order">
+    <b>Custumer Name</b> 
+    <input type="text" size= 22/> &nbsp; &nbsp; &nbsp; &nbsp;
+    <b>Phone Number</b> 
+    <input type="number" size = 20/ placeholder="+92">
+    <table>
+        <tr>
+            <th>Roll Images</th>
+            <th>Roll Choice</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+        </tr>
+        <tr>
+            <td>
+                <img src="roll.png" alt="pizza" class="image2">
+            </td>
+            <td>
+                <input type="checkbox" value="Big Italy"> Big Italy
+            </td>
+            <td>
+                <input type="text" size="11">
+            </td>
+            <td>
+                <input type="text" value="12.00" size="11" readonly>
+            </td>
+            <td>
+                <input type="text" size="11" disabled>
+            </td>
+        </tr>
+       
+        <tr>
+            <td>
+                <img src="roll2.png" alt="pizza" class="image2">
+            </td>
+            <td>
+                <input type="checkbox" value="Next Lover">Next Lover
+            </td>
+            <td>
+                <input type="text" size="11">
+            </td>
+            <td>
+                <input type="text" value="10.00" size="11" readonly>
+            </td>
+            <td>
+                <input type="text" size="11" disabled>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <img src="roll3.png" alt="pizza" class="image2">
+            </td>
+            <td>
+                <input type="checkbox" value="veggie Lover">Veggie Lover
+            </td>
+            <td>
+                <input type="text" size="11">
+            </td>
+            <td>
+                <input type="text" value="9.50" size="11" readonly>
+            </td>
+            <td>
+                <input type="text" size="11" disabled>
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Total</td>
+            <td>
+                <input type="text" size="11" disabled>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+               <input type="submit" value="Calculate Order Total" class="btn">
+               <input type="reset" value="Clear Order" class="btn">
+            </td>
+        </tr>
+
+    </table>
+
+  </form>
+    
+</body>
+</html>

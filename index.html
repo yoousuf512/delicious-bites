@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites</title>
+</head>
+<body>
+    <div class="container">
+       <nav>
+          <div class="logo">
+              <h1>Delicious Bites</h1>
+          </div>
+          <div class="input">
+            <input type="text" id="inp" placeholder="Search here" onkeyup = "myFun()" >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="icon">
+            <i onclick="login()" class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i onclick="nav()" class="fa-solid fa-bars"></i>
+          </div>
+       </nav>
+
+       <div class="login">
+            <h2>Log In</h2>
+            <input type="text" placeholder="Enter your name">
+            <input type="password" placeholder="Enter your password">
+              <br>
+              <button class="log">Log in</button>
+              <button class="log"><a href="form.html" class="anker">Sign Up</a></button>
+        </div>
+
+        <div class="nav">
+            <p>Home</p>
+            <p>Foods</p>
+            <p>Blogs</p>
+            <p>Custumers</p>
+        </div>
+
+       <div class="main">
+           <div class="text">
+              <h1>Simple and Tasty Recipies</h1>
+              <p>This is our online food order website. We are creating it for final year project. We use it in our university Student. Student will taste our food. We hope that students will like our food.</p>
+              <button>Explore More</button>
+           </div>
+           <img src="brgr.png" alt="burgers">
+       </div>
+        <table>
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>Foods</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="roll.png" alt="roll">
+                            <h2>299 Rupees Only</h2>
+                            <p>Enjoy chicken roll with your friens in winder. Clouds make you active and healthy.</p>
+                            <button><a href="roll.html">Order Now</a></button>
+                        </div>
+                        <div class="card">
+                            <img src="piz.png" alt="pizza">
+                            <h2>299 Rupees Only</h2>
+                            <p>Enjoy pizza i any flever with your friens in winder. Clouds make you active and healthy.</p>
+                            <button><a href="order.html">Order Now</a></button>
+                        </div>
+                        <div class="card">
+                            <img src="rice.png" alt="rice">
+                            <h2>299 Rupees Only</h2>
+                            <p>Enjoy biryani, chinese rice and pulao with your friens in winder. Clouds make you active and healthy.</p>
+                            <button><a href="biryani.html">Order Now</a></button>
+                        </div>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="samosa.png" alt="roll">
+                            <h2>99 Rupees Only</h2>
+                            <p>Enjoy Samoosa of fresh oil. Chicken samosa, Poato Samosa and Simple Samoosa</p>
+                            <button><a href="samoosa.html">Order Now</a></button>
+                        </div>
+                       <div class="crd">
+                        <div class="card">
+                            <img src="salin.png" alt="pizza">
+                            <h2>299 Rupees Only</h2>
+                             <p>Enjoy Salid of cucumber, Onion , Couliflowerand other vegetables which are healthy.</p>
+                            <button><a href="salid.html">Order Now</a></button>
+                        </div>  
+                       </div>
+                        <div class="card">
+                            <img src="piece.png" alt="piece">
+                            <h2>299 Rupees Only</h2>
+                            <p>Enjoy Chicken peace and leg peace with less price. Fry in fresh oil.</p>
+                            <button><a href="pease.html">Order Now</a></button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                     <div class="head">
+                         <h1>Our <span>Blogs</span></h1>
+                     </div>
+                     <div class="crd">
+                        <div class="blog">
+                            <img src="roll.png" alt="roll">
+                            <h2>Fact about Pakistani food</h2>
+                            <p>Enjoy chicken roll with your friens in winder. Clouds make you active and healthy.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="piz.png" alt="pizza">
+                            <h2>Different type of burgers </h2>
+                            <p>Enjoy pizza i any flever with your friens in winder. Clouds make you active and healthy.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="rice.png" alt="rice">
+                            <h2>Delicious chicken recipies</h2>
+                            <p>Enjoy biryani, chinese rice and pulao with your friens in winder. Clouds make you active and healthy.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+
+        <div class="head">
+            <h1>Custumer <span>Review</span></h1>
+        </div>
+
+        <div class="review">
+            <!-- <div class="head">
+                <h1>Custumer <span>Review</span></h1>
+            </div> -->
+            <div class="customer">
+                <img src="customer.png" alt="customer"> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima repudiandae quia tempora vero eveniet magni!</p>
+            </div>
+            <div class="customer">
+                <img src="customer2.png" alt="customer"> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima repudiandae quia tempora vero eveniet magni!</p>
+            </div>
+            <div class="customer">
+                <img src="customer3.png" alt="customer"> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima repudiandae quia tempora vero eveniet magni!</p>
+            </div>
+        </div> 
+        <div class="btn">
+            <button onclick="prev()">Previous</button>
+            <button onclick="next()">Next</button>
+        </div>
+        <div class="footer">
+            <div class="txt">
+                <h2>About Us</h2>
+                <p>Maqsood Alam</p>
+                <p>03356605028</p>
+                <p>maqsodalaam3456@gmail.com</p>
+                <p>blockA porali hostel luawms university uthal</p>
+            </div>
+            <div class="txt">
+                <h2>About Us</h2>
+                <p>Yousuf Raza</p>
+                <p>03498639998</p>
+                <p>2k19cs20@gmail.com</p>
+                <p>LUAWMS, Officer colony, house No A2</p>
+            </div>  
+            <div class="txt">
+                <h2>About Us</h2>
+                <p>Location </p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+            </div>  
+            <div class="txt">
+                <h2>About Us</h2>
+                <p>Websites</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+            </div>    
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+.hero{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #292929;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero h1{
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 44px;
+}
+.signupbox{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 800px;
+  background-color:#fff ;
+}
+.leftbox{
+  padding: 50px;
+  background-color: purple;
+  flex-basis: 50%;
+  flex-grow: 1;
+  color: #fff;
+}
+.rightbox{
+  padding: 50px;
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+.inputbox{
+  width: 100%;
+  padding: 18px;
+  margin: 18px;
+  border: 1px solid #fff;
+  outline: none;
+  color: #fff;
+  background: transparent;
+  font-size: 19px;
+}
+::placeholder{
+  color: #fff;
+}
+input[type=checkbox]{
+  margin-top: 50px;
+
+}
+label{
+  font-size: 14px;
+}
+.leftbox button{
+  width: 100%;
+  background: #fff;
+  padding: 11px;
+  border: 0;
+  outline: none;
+  font-size: 17px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 11px;
+  transition: 0.5s;
+}
+.leftbox button:hover{
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+}
+.rightbox a{
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  min-width: 250px;
+  color: #fff;
+  font-size: 15px;
+  padding: 16px 30px;
+}
+
+.f-link{
+  background-color: #1778f3;
+}
+.t-link{
+  background-color: #33d3d3ed;
+
+}
+.aa{
+  background-color: red;    
+}
+.log-in-msg{
+ color: #fff;
+ margin-top: 35px;
+ font-size: 32px;
+}
+.log-in-msg a{
+  color: #ccc;
+  
+}
+
+
+
+
+
+
+
